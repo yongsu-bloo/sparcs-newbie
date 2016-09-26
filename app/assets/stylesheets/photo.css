@@ -1,0 +1,25 @@
+.img_preview{
+    width:100%;
+    height:auto;
+}
+
+.navbar{
+    height:100px;
+}
+.image_down {
+    padding: 10px 10px;
+    background-color: white;
+    border:0px;
+}
+.image_down:hover {
+    cursor:pointer;
+}
+.photolocation, photoform, image_down{
+    height:600px;
+    width: 800px;
+    position: relative;
+    margin:auto;
+}
+
+
+

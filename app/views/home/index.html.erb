@@ -1,0 +1,53 @@
+<!--http://me2.do/GGJQi146-->
+<form action="/home/photo" method= "POST" enctype="multipart/form-data">
+  <div class='navbar'>
+  </div>
+  <div class='backgroundpicture'>
+    <center>
+      <img class='cat' src="http://kurld.com/images/cats%20cute/cats%20cute-1.jpg">
+    </center>
+  </div>
+  <div class='search'>
+    <center class="center_inlin">
+      <div class='input inlin'>
+        <label for="photo_file">
+          <p>File input</p>
+          <h2 class="lines"></h2>
+        </label>
+        <input class="input_file inputs" name="photo_file" type="file" id="InputFile">
+      </div>
+      <div class='URL inlin'>
+        <p>URL 입력</p>
+        <h2 class="lines"></h2>
+        <input class="input_text inputs" name="url" type="text">
+      </div>
+      <div class='word inlin'>
+        <p>검색어 입력</p>
+        <h2 class="lines"></h2>
+        <input class="input_text inputs"  name="search" type="text">
+        <div class='profile-check'>
+          <label for="profile_check">
+            <p>프로필 사진</p>
+            <h2 class="lines"></h2>
+          </label>
+        </div>
+        <div class="profile_box">
+          <input class="input_check" name="search_option" type="checkbox" id="profile_check">
+          <input class="input_num inputs" name="choice_num" type=number min=1> 
+        </div>
+        <select class="input_opt inputs" name="option">
+          <option value="frontalface_alt">frontalface</option>
+          <option value="eye">eye</option>
+          <option value="eye_tree_eyeglasses">eyeglasses</option>
+          <option value="mcs_mouth">mouth</option>
+          <option value="smile">smile</option>
+          <option value="mcs_nose">nose</option>
+          <option value="fullbody">fullbody</option>
+          <option value="lowerbody">lowerbody</option>
+          <option value="upperbody">upperbody</option>
+        </select>
+      </div>
+      <button class='submit_button' type="submit">Submit</button>
+    </center>  
+  </div><!-- search end-->
+</form>

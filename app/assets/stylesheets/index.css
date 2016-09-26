@@ -1,0 +1,128 @@
+/** {*/
+/*    border: 1px solid green;*/
+/*}*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+
+.lines {
+    content: " ";
+    border: solid 2px #0095a3;
+    display: block;
+    width: 35px;
+    margin: 15px auto;
+}
+p {
+    font-family:"Nanum-Gothic", sans-serif;
+    margin: 0 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.profile-check p {
+    font-size: 1.2em;
+}
+.navbar{
+    height:100px;
+    width:100%;
+}
+.backgroundpicture{
+    height:450px;
+    width:100%;
+    margin-bottom:50px;
+}
+.cat{
+    height:450px;
+    width:600px;
+}
+
+.search{
+    height:200px;
+    width:100%;
+}
+
+.search .center_inlin{
+    max-width: 700px;
+    margin: auto;
+}
+
+.search .inlin {
+    padding-top: 20px;
+    float:left;
+    /*display: inline-block;*/
+    /*height:200px;*/
+    position:relative;
+    margin-right: calc(50% - 324px);
+    /*border: 2px solid white;*/
+}
+.search .inlin:hover {
+    /*border: 2px solid rgb(88, 137, 247);*/
+    border-radius: 8px;
+}
+
+.search .input{
+    width:200px;
+}
+
+.search .URL{
+    width:200px;
+}
+
+.search .word{
+    width:200px;
+    margin-right: 0px;
+}
+.submit_button{
+    margin: 15px 0px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color:#5FFAAA;
+    color:white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 2px solid #5FFAAA;
+    font-size: 1.5em;
+}
+.submit_button:hover {
+    background-color: white; /* Green */
+    color: black;
+    cursor:pointer;
+}
+.inputs {
+    max-width: calc(100% - 30px);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.input_check {
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 0;
+    margin-right: calc(100% - 87px);
+}
+
+.profile_box {
+    height: 33px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.input_num {
+    width: 35px;
+    /*margin-bottom: 15px;*/
+}
+.input_num, .input_check {
+    float: left;
+}
+.input_text, .input_file {
+    margin: 15px 0px;
+    height: 24px;
+}
+.input_file {
+    overflow: hidden;
+}
+.profile-check{
+    margin-bottom:20px;
+}
