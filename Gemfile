@@ -7,11 +7,13 @@ group :production do
 end
 
 ruby "2.3.0"
+gem 'puma'
+
 gem 'addressable'
 gem 'nokogiri'
 gem 'graphicsmagick'
 gem "mini_magick"
-gem 'ruby-opencv'
+gem 'ruby-opencv', '~> 0.0.16'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'

@@ -19,9 +19,9 @@ p {
     font-size: 1.5em;
     font-weight: bold;
 }
-.profile-check p {
-    font-size: 1.2em;
-}
+/*.profile-check p {*/
+/*    font-size: 1.2em;*/
+/*}*/
 .navbar{
     height:100px;
     width:100%;
@@ -96,7 +96,7 @@ p {
 }
 
 .input_check {
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
