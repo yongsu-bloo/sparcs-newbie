@@ -3,12 +3,10 @@
 
 Ruby on rails
 ```
-version info
+#version info
 
 ruby 2.3.0p0
-
 rails 4.2.5
-
 gem 2.5.1
 ```
 ![Image of Home](./home.png)
